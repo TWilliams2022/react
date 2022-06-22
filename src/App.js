@@ -1,9 +1,10 @@
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-  <>
-    <h1 id="wavy" className="text-1xl font-bold" >Hello!</h1>
-  </>
+  <div>
+   <NavBar/>
+  </div>
   );
 }
 
