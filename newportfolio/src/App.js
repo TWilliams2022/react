@@ -1,12 +1,15 @@
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Particles from './components/Particles';
+
 
 
 function App() {
   return (
     <div>
-  <NavBar/>
-  <Home/>
+      <NavBar />
+      <Home />
+      <Particles id="tsparticles" />
     </div>
   );
 }

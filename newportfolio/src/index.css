@@ -11,3 +11,8 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 }
+
+#profilepic{
+    width: 300px;
+    height: 300px;
+}

@@ -57,7 +57,7 @@ const tags = [
        {/* ternary.. nav is true & has this.. we want this... */}
 
 {nav && (
-  <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-green-700 text-white'>
+  <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-400 text-white'>
       {tags.map(({id, link}) => (
         <li
          key={id}  className='px-4 cursor-pointer py-6 text-4xl'>
