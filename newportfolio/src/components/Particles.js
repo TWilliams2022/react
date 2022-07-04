@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
+import { green, red } from "@mui/material/colors";
 
 const ParticlesComponent = (props) => {
   const options = useMemo(() => {
@@ -36,14 +37,14 @@ const ParticlesComponent = (props) => {
       particles: {
         links: {
           enable: false, // enabling this will make particles linked together
-          distance: 200, 
+          distance: 200,
         },
         move: {
           enable: true,
-          speed: { min: 1, max: 3 }, 
+          speed: { min: 1, max: 3 },
         },
         opacity: {
-          value: { min: 0.3, max: 0.7 }, 
+          value: { min: 0.3, max: 0.7 },
         },
         size: {
           value: { min: 1, max: 3 }, // let's randomize the particles size a bit
