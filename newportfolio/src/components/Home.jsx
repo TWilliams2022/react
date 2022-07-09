@@ -42,7 +42,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <p className="text-white mx-1 text-center ">
+        <p className="text-white text-xl mx-1 sm:mx-2 text-center ">
           Front-end software developer and former Hospital Corpsman of the U.S.
           Navy. With frontend development I am able to assess a situation,
           address major bugs, and make timely and smart decisions resolving an
@@ -52,7 +52,7 @@ const Home = () => {
         </p>
       </div>
       <div>
-        <h1 className="text-center  text-3xl mb-1 mt-1">CHOOSEN SKILLS</h1>
+        <h1 className="text-center text-white  text-4xl mb-2 mt-2">CHOSEN SKILLS</h1>
       </div>
     </div>
   );

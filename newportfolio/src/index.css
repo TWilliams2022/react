@@ -14,7 +14,7 @@ html {
 
 #ball{
     height: 40px;
-    width: 30px;
+    width: 20px;
 }
 
 #profilepic{
@@ -25,8 +25,22 @@ html {
 #footerskill{
     width: 240px;
     height: 260px;
-    perspective: 1000px;
-    transform: rotateY(180deg);
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }

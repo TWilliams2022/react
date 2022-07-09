@@ -27,13 +27,12 @@ const NavBar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52"
           >
             <li>
-              <a>Homepage</a>
+              <a href="https://www.linkedin.com/in/tyreik-williams-b0563a1a4/">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>About</a>
+              <a href="https://github.com/TWilliams2022">GitHub</a>
             </li>
           </ul>
         </div>
@@ -46,13 +45,12 @@ const NavBar = () => {
       <div class="navbar-end">
         <button class="btn btn-ghost btn-circle">
           <img
+            className="App-logo"
             id="ball"
             src="https://w0.peakpx.com/wallpaper/769/429/HD-wallpaper-pokeball-amoled-black-iphone-pikachu-pokemon-samsung-symbol.jpg"
             alt="pokeball"
           ></img>
-
         </button>
-        <button class="btn btn-ghost btn-circle"></button>
       </div>
     </div>
   );
