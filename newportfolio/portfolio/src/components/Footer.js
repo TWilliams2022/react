@@ -12,7 +12,7 @@ const footer = () => {
       <div class="mx-auto md:grid-flow-col gap-4 sm:grid-flow-row  md:place-self-center sm:place-self-center md:justify-self-center">
         <a>
           <h1 className=" text-2xl text-center cursor-pointer text-red-500 hover:text-white focus:outline-none ">
-            HTML
+            Material UI
           </h1>
           <div class="carousel-item w-full">
             <img
@@ -26,7 +26,7 @@ const footer = () => {
 
         <a>
           <h1 className=" text-2xl text-center cursor-pointer text-blue-600  hover:text-white  focus:outline-none ">
-            REACTJS
+            ReactJs
           </h1>
           <div class="carousel-item w-full">
             <img
@@ -39,7 +39,7 @@ const footer = () => {
         </a>
         <a>
           <h1 className=" text-2xl text-center cursor-pointer text-emerald-500 hover:text-white ocus:outline-none ">
-            JAVA
+            Tailwind Css
           </h1>
           <div class="carousel-item w-full">
             <img
@@ -52,7 +52,7 @@ const footer = () => {
         </a>
         <a>
           <h1 className="   text-2xl text-center cursor-pointer text-yellow-400 hover:text-white focus:outline-none ">
-            JAVASCRIPT
+            Javascript
           </h1>
           <div class="carousel-item w-full">
             <img

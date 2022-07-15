@@ -1,6 +1,8 @@
 import React from "react";
 import NewPic from "../newpic.png";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import Pic2 from "../Attachment-1.JPEG";
+import Pic3 from "../IMG-4012(1).JPG";
+import Pic4 from "../IMG-5234(1).jpg";
 
 const Home = () => {
   return (
@@ -15,11 +17,11 @@ const Home = () => {
               alt="PRO"
             />
           </div>
-    
+
           <div class="carousel-item w-full">
             <img
               id="profilepic"
-              src={NewPic}
+              src={Pic2}
               class="w-full mx-auto rounded-2xl mt-1 "
               alt="PRO"
             />
@@ -27,7 +29,15 @@ const Home = () => {
           <div class="carousel-item w-full">
             <img
               id="profilepic"
-              src={NewPic}
+              src={Pic3}
+              class="w-full mx-auto rounded-2xl mt-1 "
+              alt="PRO"
+            />
+          </div>
+          <div class="carousel-item w-full">
+            <img
+              id="profilepic"
+              src={Pic4}
               class="w-full mx-auto rounded-2xl mt-1 "
               alt="PRO"
             />
@@ -41,11 +51,13 @@ const Home = () => {
           address major bugs, and make timely and smart decisions resolving an
           error. Also, I am able to professionally create pages using various
           frameworks. I'm dedicated to elevating the drive, work ethic, and
-          function of a company.
+          functionality of a company.
         </p>
       </div>
       <div>
-        <h1 className="text-center text-white  text-4xl mb-2 mt-2">CHOSEN SKILLS</h1>
+        <h1 className="text-center text-white  text-4xl mb-2 mt-2">
+          CHOSEN SKILLS
+        </h1>
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import MovieList from './components/movielist'; 
 import SearchBox from "./components/SearchBox"; 
-import Particles from "./components/Particles";
 import MovieListHeading from "./components/MovieListHeading";
 
 
@@ -211,7 +210,6 @@ useEffect(() => {
           <div id="moviesCard" className="row">
             <MovieList movies={movies} />
           </div>
-          <Particles id="tsparticles" />
         </div>
       </div>
     );
