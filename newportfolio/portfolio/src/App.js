@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar';
 import Home from './components/Home';
-import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <Footer/>
+      <Skills/>
     </div>
   );
 }

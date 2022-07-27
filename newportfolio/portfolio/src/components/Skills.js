@@ -6,7 +6,7 @@ import Pika from "../pika.gif";
 
 // pokemon cards from https://www.kennymays.com/ 
 
-const footer = () => {
+const skills = () => {
   return (
     <footer class="footer mx-auto items-center ">
       <div class="mx-auto md:grid-flow-col gap-4 sm:grid-flow-row  md:place-self-center sm:place-self-center md:justify-self-center">
@@ -68,4 +68,4 @@ const footer = () => {
   );
 }
 
-export default footer
+export default skills
