@@ -2,8 +2,8 @@ import React from 'react'
 
 const Note = () => {
   return (
-    <div>
-    <h1>Welcome to my keeper app!</h1>
+    <div className='note'>
+    <h2>Welcome to my keeper app!</h2>
     <p>Here you will learn how everything is done behind the scenes</p>
     </div>
   )
