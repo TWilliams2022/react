@@ -37,3 +37,17 @@ box-shadow: 0 3px 6px rgb(210, 78, 78);
 .note p{
   color: cornsilk;
 }
+
+.container{
+  width: 60px;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 40px;
+}
+
+#button{
+
+  margin: auto;
+
+}
